@@ -37,4 +37,13 @@ public class Bnode {
 
         return 1 + e + d;
     }
+
+    public int soma(){
+        int e = 0;
+        int d = 0;
+        if(esq!=null) e = esq.soma();
+        if(dir!=null) d = dir.soma();
+
+        return x + e + d;
+    }
 }

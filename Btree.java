@@ -26,4 +26,9 @@ public class Btree {
         if(raiz!=null) return raiz.size();
         return 0;
     }
+
+    public int soma(){
+        if(raiz!=null) return raiz.soma();
+        return 0;
+    }
 }

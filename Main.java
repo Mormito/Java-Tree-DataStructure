@@ -3,7 +3,6 @@ public class Main {
         Btree a = new Btree();
 
         //add values in the tree
-        a.add(100);
         a.add(2);
         a.add(3);
         a.add(4);
@@ -12,16 +11,14 @@ public class Main {
         a.add(7);
         a.add(8);
         a.add(9);
-        a.add(99);
-        a.add(10);
-        a.add(10);
-        a.add(22);
-        a.add(23);
 
         //show the numbers
         a.show();
 
         //show size
         System.out.println("\nSize: " + a.size());
+
+        //show sum
+        System.out.println("\nSum: " + a.soma());
     }
 }
