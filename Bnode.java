@@ -16,5 +16,13 @@ public class Bnode {
             if(dir != null) dir.add(valor);
             else dir = new Bnode(valor);
         }
+        else{
+            if(esq != null) esq.add(valor);
+            else esq = new Bnode(valor);
+        }
+    }
+
+    public void show(){
+        
     }
 }

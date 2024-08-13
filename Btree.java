@@ -18,6 +18,7 @@ public class Btree {
     }
 
     public void show(){
-
+        if(raiz!=null) raiz.show();
+        else System.out.println("Arvore Vazia");
     }
 }
