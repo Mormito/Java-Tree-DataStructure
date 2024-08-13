@@ -21,4 +21,9 @@ public class Btree {
         if(raiz!=null) raiz.show();
         else System.out.println("Arvore Vazia");
     }
+
+    public int size(){
+        if(raiz!=null) return raiz.size();
+        return 0;
+    }
 }

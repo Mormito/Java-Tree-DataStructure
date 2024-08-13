@@ -27,4 +27,14 @@ public class Bnode {
         if(esq!=null) esq.show();
         if (dir!=null) dir.show();
     }
+
+    public int size(){
+        int e = 0;
+        int d = 0;
+
+        if(esq!=null) e=esq.size();
+        if(dir!=null) d=dir.size();
+
+        return 1 + e + d;
+    }
 }

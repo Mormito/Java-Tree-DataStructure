@@ -20,5 +20,8 @@ public class Main {
 
         //show the numbers
         a.show();
+
+        //show size
+        System.out.println("\nSize: " + a.size());
     }
 }
