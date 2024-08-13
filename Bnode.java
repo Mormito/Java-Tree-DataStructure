@@ -23,6 +23,8 @@ public class Bnode {
     }
 
     public void show(){
-        
+        System.out.println(x);
+        if(esq!=null) esq.show();
+        if (dir!=null) dir.show();
     }
 }
